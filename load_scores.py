@@ -4,11 +4,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
-study = '/home/reza/oaibaseline/'
+study = '/home/reza/oai-knee-classification/'
 data_raw = study + 'Data_Raw/'
 
 # Load tab-delimited .txt
 scores = pd.read_csv(data_raw + 'scores/oai_koos_womac01.txt', sep='\t', low_memory=False)
+# scores_2 = pd.read_csv(data_raw + 'scores/AllClinical00.txt', sep='\t', low_memory=False)
+
+
+# scores_2.to_csv(data_raw + 'scores/AllClinical00.csv', index=False)
 
 
 # Filter for visit = V00
