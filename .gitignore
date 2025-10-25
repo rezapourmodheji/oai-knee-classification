@@ -3,3 +3,9 @@
 *.png
 __pycache__/
 *.pyc
+*.tar.gz
+Data_Raw/
+myenv/
+*.odt
+Data_Processed
+Data_Reduced
