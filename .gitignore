@@ -7,5 +7,5 @@ __pycache__/
 Data_Raw/
 myenv/
 *.odt
-Data_Processed
-Data_Reduced
+Data_Processed/
+Data_Reduced/
